@@ -14,7 +14,7 @@ only test with thunderbolt3 egpu rx560 4gb.
 
 只测试了雷蛇的Razer Core雷电3扩展坞+蓝宝石的rx560 4gb，
 
-关闭了核显。
+关闭了核显。开启了硬件加速。
 
 注意：安装时去除boot-args中的-wegnoigpu。
 
