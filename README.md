@@ -18,8 +18,10 @@ only test with thunderbolt3 egpu rx560 4gb.
 
 注意：安装时去除boot-args中的-wegnoigpu。
 
+<img src="https://github.com/xqmnig/yoga-14s-hackintosh/blob/main/pic/00.png" width="633" >
 
-https://github.com/xqmnig/yoga-14s-hackintosh/blob/main/pic/00.png
+
+
 
 感谢：MemX http://i.pcbeta.com/space-uid-4592702.html
 
