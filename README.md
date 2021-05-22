@@ -20,6 +20,7 @@ only test with thunderbolt3 egpu rx560 4gb.
 
 <img src="https://github.com/xqmnig/yoga-14s-hackintosh/blob/main/pic/00.png" width="633" >
 
+<img src="https://github.com/xqmnig/yoga-14s-hackintosh/blob/main/pic/11.png" width="633" >
 
 
 
