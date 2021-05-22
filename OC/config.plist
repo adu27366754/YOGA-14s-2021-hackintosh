@@ -301,7 +301,152 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict/>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>Tiger Lake-LP USB 3.2 Gen 2x1 xHCI Host Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,2</string>
+				<key>device_type</key>
+				<string>RAM memory</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Shared SRAM</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,3</string>
+				<key>device_type</key>
+				<string>Network controller</string>
+				<key>model</key>
+				<string>Wi-Fi 6 AX201</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,7,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Thunderbolt PCI Express Root Port #0</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,7,1</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Thunderbolt PCI Express Root Port #1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,7,2</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Thunderbolt PCI Express Root Port #2</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x2)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,7,2/0,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>DSL6540 Thunderbolt 3 Bridge [Alpine Ridge 4C 2015]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x2)/Pci(0x0,0x0)/Pci(0x1,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,7,2/0,0/1,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>DSL6540 Thunderbolt 3 Bridge [Alpine Ridge 4C 2015]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x2)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,7,2/0,0/1,0/0,0</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>model</key>
+				<string>Baffin [Radeon RX 550 640SP / RX 560/560X]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x2)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,7,2/0,0/1,0/0,1</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>Baffin HDMI/DP Audio [Radeon RX 550 640SP / RX 560/560X]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x2)/Pci(0x0,0x0)/Pci(0x4,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,7,2/0,0/4,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>DSL6540 Thunderbolt 3 Bridge [Alpine Ridge 4C 2015]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x2)/Pci(0x0,0x0)/Pci(0x4,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,7,2/0,0/4,0/0,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>DSL6540 USB 3.1 Controller [Alpine Ridge]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,7,3</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Thunderbolt PCI Express Root Port #3</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0xD,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,13,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Thunderbolt USB Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0xD,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,13,2</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Thunderbolt NHI #0</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0xD,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,13,3</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Thunderbolt NHI #1</string>
+			</dict>
+		</dict>
 		<key>Delete</key>
 		<dict/>
 	</dict>
