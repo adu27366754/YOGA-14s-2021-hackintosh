@@ -1,4 +1,4 @@
-# yoga-14s-hackintosh
+# yoga-14s-2021-hackintosh
 
 cpu:intel i5 1135g7
 
